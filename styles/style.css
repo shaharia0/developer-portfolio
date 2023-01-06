@@ -141,4 +141,37 @@ main{
   margin-top: 130px;
   margin-bottom: 110px;
   text-align: center;
+  gap: 500px;
+}
+.resume-container{
+  display: flex;
+}
+.resume-title{
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.resume-subtitle{
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.resume-description{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  line-height: 28px;
+}
+/* button styles  */
+.resume-button{
+  margin-top: 20px;
+  
+}
+.btn-primary a{
+  text-decoration: none;
+  color: #FFFFFF;
 }
