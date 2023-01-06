@@ -175,3 +175,33 @@ main{
   text-decoration: none;
   color: #FFFFFF;
 }
+/* contact styles */
+.contact{
+  display: flex;
+  gap: 110px;
+  background: #fff8f3;
+  padding: 130px 230px;
+}
+.contact .section-title{
+ text-align: left;
+}
+.contact input[type="text"],input[type="email"], textarea{
+  margin-bottom: 24px;
+  border: 0;
+  padding: 18px 30px;
+  width: 100%;
+}
+input{
+  height: 24PX;
+}
+.contact-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.contact a{
+  text-decoration: none;
+  padding: 10px;
+}
