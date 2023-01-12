@@ -205,3 +205,19 @@ input{
   text-decoration: none;
   padding: 10px;
 }
+.hide{
+  display: none;
+}
+/* responsive css */
+@media screen and (max-width:576px) {
+  .skills-container{
+    flex-direction: column;
+  }
+  .resume-container{
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+  
+}
